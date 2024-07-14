@@ -7,10 +7,10 @@ function App() {
   return (
     <div className="container">
 
-      <h1>Cadastro de Produtos</h1>
+      <h1 className='mt-3 mb-3'>Cadastro de Produtos</h1>
 
       <form>
-        <div className="row">
+        <div className="row mb-3">
          <div className="col">
          <input
             type="text"
@@ -20,7 +20,7 @@ function App() {
          </div>
         </div>
 
-        <div className="row">
+        <div className="row mb-3">
           
           <div className="col">
             <input 
@@ -32,11 +32,19 @@ function App() {
           </div>
 
         </div>
-        <button className='btn btn-outline-success'>Inser</button>
-        <button className='btn btn-outline-primary'>Salvar</button>
+       <div className='btn-group d-flex gap-3'>
+       <button className='btn btn-outline-success'>Inserir</button>
+       <button className='btn btn-outline-primary'>Salvar</button>
+        
+       </div>
       </form>
 
-      <table>
+      <table className='table table'>
+        <thead>
+          <tr>
+            
+          </tr>
+        </thead>
 
       </table>
 
