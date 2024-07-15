@@ -53,19 +53,57 @@ function App() {
         <tbody>
           <tr>
             <th scope='row'>1</th>
-            <td>Nome do Produto</td>
-            <td>Valor</td>
-            <td>Qtd</td>
+            <td>Notebook Apple</td>
+            <td>1299,00€</td>
+            <td>40</td>
             <td>
               <img width={40} src="https://d2e6ccujb3mkqf.cloudfront.net/a8312809-9dc0-4a28-be31-5f65dfa4d558-1_5e3d8b6c-9d8d-42df-a63a-7dd1111d0434.jpg" alt="imagem do Produto" />
             </td>
             <td>
-              <div className='btn-group d-flex gap-1'>
-                <button className='btn btn-outline-warning'>
-                <i className="fa-solid fa-pen-to-square"></i>
+              <div className="btn-group d-flex gap-1">
+                <button className="btn btn-outline-warning">
+                  <i className="fa-solid fa-pen-to-square"></i>
                 </button>
-                <button className='btn btn-outline-danger'>
-                <i className="fa-solid fa-trash"></i>
+                <button className="btn btn-outline-danger">
+                  <i className="fa-solid fa-trash"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope='row'>2</th>
+            <td>Iphone ProMax15</td>
+            <td>1399,99€</td>
+            <td>30</td>
+            <td>
+              <img width={40} src="https://www.worten.pt/i/fdd3a716eff52a4da47bdfb8a101f2f54913cf94" alt="imagem do Produto" />
+            </td>
+            <td>
+              <div className="btn-group d-flex gap-1">
+                <button className="btn btn-outline-warning">
+                  <i className="fa-solid fa-pen-to-square"></i>
+                </button>
+                <button className="btn btn-outline-danger">
+                  <i className="fa-solid fa-trash"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope='row'>3</th>
+            <td>Pc Gaming</td>
+            <td>1799,99€</td>
+            <td>20</td>
+            <td>
+              <img width={40} src="https://www.worten.pt/i/e029a93e55b2edee14d62a4ac76fb8d49a43b252" alt="imagem do Produto" />
+            </td>
+            <td>
+              <div className="btn-group d-flex gap-1">
+                <button className="btn btn-outline-warning">
+                  <i className="fa-solid fa-pen-to-square"></i>
+                </button>
+                <button className="btn btn-outline-danger">
+                  <i className="fa-solid fa-trash"></i>
                 </button>
               </div>
             </td>
