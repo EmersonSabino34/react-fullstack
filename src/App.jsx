@@ -1,9 +1,22 @@
 
-import './App.css'
+import { useState } from 'react';
+import './App.css';
 
 function App() {
+  
+  const [quantidade, setQuantidade] = useSate();
+  const [valor, setValor] = useState();
+  const [foto, setFoto] =useState();
+  const [id, setId] = useState();
+  const [produto, setProduto ]=useState();
 
-
+  const [classInserir, setClassIserir] = useState("");
+  const [classAlterar, setClassAlterar] =useState("");
+  const Cadastrar = (e) => {
+    e.preventDefault()
+    
+    alert("Cadastrando...")
+  }
   return (
     <div className="container">
 
@@ -33,8 +46,8 @@ function App() {
 
         </div>
        <div className='btn-group d-flex gap-3'>
-       <button className='btn btn-outline-success'>Inserir</button>
-       <button className='btn btn-outline-primary'>Salvar</button>
+       <button className={"btn btn-outline-success ${classInserir}"}>Inserir</button>
+       <button className={"btn btn-outline-primary ${ClassAlterar}"}>Salvar</button>
         
        </div>
       </form>
