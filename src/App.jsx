@@ -14,6 +14,9 @@ function App() {
   const [classAlterar, setClassAlterar] =useState("");
   const Cadastrar = (e) => {
     e.preventDefault()
+
+    if (produto ===""){
+      alert("por favor preencha o campo do produto")
     
     alert("Cadastrando...")
   }
